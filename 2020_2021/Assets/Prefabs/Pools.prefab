@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5191118469846788128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5191118469846788158}
+  - component: {fileID: 5191118469846788159}
+  m_Layer: 0
+  m_Name: Pools
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5191118469846788158
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5191118469846788128}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5191118469846788159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5191118469846788128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55ed644301051f347ad6b21200a2f9e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentObj: {fileID: 5191118469846788158}
+  pools:
+  - prefab: {fileID: 1086167758090087300, guid: 240fe008c5f8e374da6ccc446c17b048, type: 3}
+    quantity: 2
+  - prefab: {fileID: 1086167758090087300, guid: f2cf36ee87dc05447b07ebc8db840419, type: 3}
+    quantity: 2
+  - prefab: {fileID: 1086167758090087300, guid: a88020a96cd558d488d5a2f096be4897, type: 3}
+    quantity: 2
+  - prefab: {fileID: 1086167758090087300, guid: 593464acc05b2184d82f0f8a590a82f6, type: 3}
+    quantity: 2
+  - prefab: {fileID: 1086167758090087300, guid: c391427e303e17145b4a2bc080f75ca4, type: 3}
+    quantity: 3
+  - prefab: {fileID: 6177963330577772262, guid: c00c01fc97d34f84d979765f247e8868, type: 3}
+    quantity: 2
+  - prefab: {fileID: 3584292368813165813, guid: 86631ec764433ef41b633d18cf77acc9, type: 3}
+    quantity: 3
+  - prefab: {fileID: 3584292368813165813, guid: 32a9ff3ea8a90f5409dd818026483e2b, type: 3}
+    quantity: 20
+  - prefab: {fileID: 3584292368813165813, guid: 038e7aee077cc8f40a246d85ce11c336, type: 3}
+    quantity: 2
+  - prefab: {fileID: 9180125028291240237, guid: 14d197d66b7943540841f21032133e67, type: 3}
+    quantity: 2
+  - prefab: {fileID: 9180125028291240237, guid: 4388cc400eb900043b94fd68231f0ec6, type: 3}
+    quantity: 2
+  - prefab: {fileID: 9180125028291240237, guid: b4b374073470f6845b729f2cca79e4bb, type: 3}
+    quantity: 2
+  - prefab: {fileID: 9180125028291240237, guid: e1c9a2ad64674774f8109a1feff63736, type: 3}
+    quantity: 2
+  - prefab: {fileID: 5889169053458799905, guid: e7b19d44ef16538409fa9bb4c091ff6c, type: 3}
+    quantity: 2
+  - prefab: {fileID: 3596980247055160624, guid: 7c70a42d08b9d024c88d5bbab34e9ddb, type: 3}
+    quantity: 2

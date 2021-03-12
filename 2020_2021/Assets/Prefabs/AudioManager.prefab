@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8798982245936707721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8798982245936707727}
+  - component: {fileID: 8798982245936707720}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8798982245936707727
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8798982245936707721}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8798982245936707720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8798982245936707721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4583261fdbd3b428b466ea3ca16d78, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clip: {fileID: 8300000, guid: 010342ab2960b7c49b5983db92d6f491, type: 3}
+    name: theme
+    theme: 1
+    volume: 0.5
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+    audioMixerGroup: {fileID: 24300002, guid: 14680f7406489d3498f6709a9729a93e, type: 2}
+  - clip: {fileID: 8300000, guid: 6a777c8141c79bf4896628d318e6a180, type: 3}
+    name: towerShoot
+    theme: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+    audioMixerGroup: {fileID: 24300002, guid: f8c8fce5413171e4a876f7e3d84fcd1d, type: 2}
+  - clip: {fileID: 8300000, guid: 93d594c3e9e117944a1efc7bdc0ad902, type: 3}
+    name: mortarShoot
+    theme: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+    audioMixerGroup: {fileID: 24300002, guid: 14680f7406489d3498f6709a9729a93e, type: 2}
+  musicMixer: {fileID: 24100000, guid: 14680f7406489d3498f6709a9729a93e, type: 2}
+  SFXMixer: {fileID: 24100000, guid: f8c8fce5413171e4a876f7e3d84fcd1d, type: 2}
